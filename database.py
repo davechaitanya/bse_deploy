@@ -10,5 +10,5 @@ def get_connection():
         user=os.getenv("DB_USER", "root"),
         port=16679,
         password=os.getenv("DB_PASSWORD", "WBShppxUqcEKDFRArGeFuZLRmfPMldxn"),
-        database=os.getenv("DB_NAME", "bse_stock_data")
+        database=os.getenv("DB_NAME", "railway")
     )
