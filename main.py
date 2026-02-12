@@ -60,3 +60,4 @@ def get_quarter(scrip_code: str, quarter: str):
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
